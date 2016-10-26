@@ -442,7 +442,7 @@ h3.profile-title {
 
 .welcome-text {
   text-align: right;
-  
+  vertical-align: text-top;
   position: relative;
   z-index: 4;
 }
