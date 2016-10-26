@@ -276,7 +276,7 @@ hr {
   width: 23%;
   height: 100%;
   position: fixed;
-  background-color: #0D1919;
+  background-color: #071112;
   color: white;
   overflow-y: hidden;
 }
@@ -288,17 +288,24 @@ hr {
 }
 
 .top-section {
-  padding: 40px;
+  padding: 30px;
+}
+
+.website-link{
+  color: white;
+  font-size: 18px;
+  font-family: 'robotobold';
 }
 
 .profile-image {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border: 4px solid white;
   -webkit-border-radius: 75px;
   border-radius: 75px;
   overflow: hidden;
   margin-bottom: 20px;
+
 }
 .profile-image img {
   width: 100%;
@@ -309,6 +316,28 @@ h3.profile-title {
   color: white;
   font-size: 18px;
   font-family: 'robotobold';
+  display: inline;
+}
+
+h1.indiv-work{
+  color: black;
+  font-size: 30px;
+  font-family: 'robotobold';
+  display: inline;
+}
+
+h3.indiv-details{
+  color: black;
+  font-size: 20px;
+  font-family: 'robotobold';
+
+}
+
+.personal-info{
+  position:absolute;
+  top:50%;
+
+
 }
 
 .main-navigation {
@@ -441,8 +470,6 @@ h3.profile-title {
 }
 
 .welcome-text {
-  text-align: right;
-  vertical-align: text-top;
   position: relative;
   z-index: 4;
 }
