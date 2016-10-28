@@ -275,6 +275,7 @@ hr {
   padding-top: 40px;
 }
 
+
 /*---------------------------------------------------------
  3. Header
 -------------------------------------------------------- */
@@ -302,6 +303,8 @@ hr {
   color: white;
   font-size: 18px;
   font-family: 'robotobold';
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .profile-image {
@@ -338,6 +341,28 @@ h3.indiv-details{
   font-size: 20px;
   font-family: 'robotobold';
 
+}
+
+.research-question {
+  font-size: 18px;
+  font-family: 'robotobold';
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: white;
+
+}
+
+div.question-holder {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #071112;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .personal-info{
