@@ -343,13 +343,20 @@ h3.indiv-details{
 
 }
 
-.research-question {
-  font-size: 18px;
+h1.research-question {
+  font-size: 25px;
   font-family: 'robotobold';
   margin-bottom: 30px;
   margin-top: 30px;
   color: white;
+}
 
+h3.research-question {
+  font-size: 20px;
+  font-family: 'robotobold';
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: white;
 }
 
 div.question-holder {
