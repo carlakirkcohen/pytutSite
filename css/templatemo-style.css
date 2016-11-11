@@ -132,7 +132,8 @@ img {
 }
 
 .resultImg{
-  max-width: 100%;
+    width: 50%;
+    float: right;
 }
 
 .resultsBody{
@@ -294,7 +295,7 @@ hr {
   position: fixed;
   background-color: #071112;
   color: white;
-  overflow-y: hidden;
+  overflow-y: hidden;;
 }
 @media screen and (max-width: 1290px) {
   .sidebar-menu {
@@ -305,6 +306,10 @@ hr {
 
 .top-section {
   padding: 30px;
+}
+
+.contactDetail{
+  text-align: center;
 }
 
 .k{
@@ -344,9 +349,7 @@ h1.indiv-work{
   display: inline;
 }
 
-.caption{
-  text-align: center;
-}
+
 
 h3.indiv-details{
   color: black;
