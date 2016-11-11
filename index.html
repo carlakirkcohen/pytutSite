@@ -42,6 +42,7 @@
                       <li><a href="#results"><i class="fa fa-bar-chart"></i>Results</a></li>
                       <li><a href="#conclusions"><i class="fa fa-comment-o"></i>Conclusions</a></li>
                       <li><a href="#documentation"><i class="fa fa-folder-open"></i>Documentation</a></li>
+                        <li><a href="#contact"><i class="fa fa-envelope"></i>Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -55,8 +56,7 @@
                 </div>
                 <h3 class="profile-title">PyTut Online Python Tutor</h3>
                 <br>
-                <p class="website-link" rel="external"><a href="https://pytut-eedf2.firebaseapp.com" style="text-decoration: none" target="_blank"><i class="fa fa-home"></i>Link to Prototype Website</a></p>
-                <p class="website-link" rel="external"><a href="https://drive.google.com/open?id=0B4U9uIgvKeOETzhzdVRpUnV0NWs" style="text-decoration: none" target="_blank"><i class="fa fa-home"></i>Link to Survey Results</a></p>
+
             </div> <!-- top-section -->
             <div class="main-navigation">
                 <ul class="navigation">
@@ -65,18 +65,10 @@
                     <li><a href="#results"><i class="fa fa-bar-chart"></i>Results</a></li>
                     <li><a href="#conclusions"><i class="fa fa-comment-o"></i>Conclusions</a></li>
                     <li><a href="#documentation"><i class="fa fa-folder-open"></i>Documentation</a></li>
+                    <li><a href="#contact"><i class="fa fa-envelope"></i>Contact</a></li>
                 </ul>
             </div> <!-- .main-navigation -->
-            <div class="social-icons">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                </ul>
-            </div> <!-- .social-icons -->
+
         </div> <!-- .sidebar-menu -->
 
 
@@ -155,18 +147,47 @@
                         <div class="col-md-12">
                             <h4 class="widget-title">Experiment Results</h4>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6" >
                               <div class = "question-holder"  >
                               <h3 class ="research-question"> Does the introduction of an e-learning system as a supplement to classroom instruction significantly aid beginner programmers? </h3>
                               </div>
+                              <div class ="resultsBody">
                               <p>Ross results here</p>
                             </div>
 
-                            <div class="col-md-6">
+                            </div>
+
+                            <div class="col-md-6" >
                               <div class ="question-holder" >
                               <h3 class ="research-question"> How effective are interactive code, code visualization, automated assessment and interactive feedback in aiding beginner programmers?</h3>
                               </div>
-                            <p>Carla results here</p>
+                              <div class ="resultsBody">
+                            <p >The individual features were asessed by expert using a 1-5 likert scale to evaluate how effective they were in assisting beginner programmers in
+                              tasks that beginner programmers are likely to perform and their suitability for use in a E-learning system. The categories examined were ability to
+                              engage students, detection of syntax errors, detection of logical errors, ability to work at own pace and suitability for implementation in future
+                            E-learning systems. </p>
+                            <p>Across categories, the features provided by the prototype achieved high scores. This is partially to be expected because the features that were included in the
+                              prototype were chosen because of their common use in Computer Science E-learning systems. The few exceptions to this statement were to be expected; for example,
+                               the interactive feedback feature did scored below 3 for the ability for detect logical and syntax errors.  </p>
+                               <img src="img/totalScore.png" class ="resultImg" alt="">
+                               <p>The automated marker out-performed the other features in four of the five categories tested, making it the clear front runner among the features tested. Of
+                                 particular interest is its high score for the ability to engage learners, 4.6/5, which confirms the expectation laid out by reinforcement theory that the
+                                 promise of assessment motivates students to engage with the task at hand. The automated marker scored 0.5 higher than the next best feature
+                                 in the ability to let students work at their own pace. This is one of the key advantages of using E-learning to deliver content. Suggestions that the automated
+                                 marker feature should point out areas in the code where students are likely to have made errors are beyond the scope of a simple black box based automated
+                                 marker. These suggestions emphasize the limitations mentioned in this paper's literature review of an automated marker's ability to produce the same quality
+                                 of feedback that interaction with an instructor can provide. </p>
+                                 <p>The use of a simplified notepad-like frame for users to code in was intended to remove the confusion of the unnecessarily complex features that IDEs provide
+                                   beginner programmers, a known barrier to programming for beginners. Despite obtaining the second highest overall score across categories,
+                                   the interactive code feature did not perform as well as expected. The open ended questions revealed that the simplicity of the feature detracted from its score
+                                   rather than adding value, with multiple users raising concerns about the simplistic way in which syntax errors were highlighted and reported. The main concern
+                                   raised was that this simple feature was not superior to service-rich IDEs. Simple notepad-like frames for executing code have been found to significantly aid
+                                   learning by Tang (2015), but the frames were only used for execution of pre-loaded code to illustrate a programming concept. The results
+                                   obtained indicate that a simple code execution environment is insufficient for writing and debugging of code. The ability to execute code is essential to an
+                                   E-learning system, but a more feature-rich environment appears to be required.</p>
+                                   <p></p>
+                              </div>
+
                             </div>
                         </div>
                     </div>
@@ -193,162 +214,49 @@
                         <div class="col-md-12">
                             <h4 class="widget-title">Documentation</h4>
 
-                            <hr>
+                            <h3><b>Group Submissions</b></h3>
+                            <h5 class="website-link" ><a href="./documents/Research_Proposal.pdf" target="_blank"><i class="fa fa-pencil-square-o"></i>Research Proposal</a></h5>
+                            <h5 class="website-link" ><a href="./documents/Research_Proposal_Presentation.pdf" target="_blank"><i class="fa fa-file-powerpoint-o"></i>Research Proposal Presentation</a></h5>
+                            <h5 class="website-link" ><a href="https://github.com/RossKohler/pytut" target="_blank"><i class="fa fa-file-code-o"></i>Project Code</a></h5>
+                            <h5 class="website-link" ><a href="./documents/UCT-Ethics.pdf" target="_blank"><i class="fa fa-legal"></i>Science Faculty Ethical Clearance</a></h5>
+                            <h5 class="website-link" ><a href="./documents/Student_Ethics.pdf" target="_blank"><i class="fa fa-group"></i>Access to Students Ethical Clearance</a></h5>
+                            <h5 class="website-link" ><a href="#"><i class="fa fa-image"></i>Project Poster</a></h5>
+
+                            <br>
+                            <h4><b>Carla Kirk-Cohen Individual Submissions</b></h5>
+                            <h5 class="website-link" ><a href="./documents/Carla_Literature_Review.pdf" target="_blank"><i class="fa fa-edit"></i>Literature Review</a></h5>
+                            <h5 class="website-link" ><a href="#" target="_blank"><i class="fa fa-file-word-o"></i>Final Write Up</a></h5>
+
+                            <br>
+                            <h4><b>Ross Kohler Individual Submissions</b></h5>
+                            <h5 class="website-link" ><a href="#f" target="_blank"><i class="fa fa-edit"></i>Literature Review</a></h5>
+                            <h5 class="website-link" ><a href="#" target="_blank"><i class="fa fa-file-word-o"></i>Final Write Up</a></h5>
+
+                            <br>
+                            <h4><b>Additional Resources</b></h5>
+                            <h5 class="website-link" rel="external"><a href="https://pytut-eedf2.firebaseapp.com" style="text-decoration: none" target="_blank"><i class="fa fa-home"></i>Prototype Website</a></h5>
+                            <h5 class="website-link" rel="external"><a href="https://drive.google.com/open?id=0B4U9uIgvKeOETzhzdVRpUnV0NWs" style="text-decoration: none" target="_blank"><i class="fa fa-file-excel-o"></i>Raw Data</a></h5>
+
                         </div>
 
-                        <div class="row projects-holder">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="project-item">
-                                    <img src="img/1.png" alt="">
-                                    <div class="project-hover">
-                                        <div class="inside">
-                                            <h5><a href="./documents/Research_Proposal.pdf" target="_blank">Research Proposal</a></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="project-item">
-                                    <img src="img/2.png" alt="">
-                                    <div class="project-hover">
-                                        <div class="inside">
-                                            <h5><a href="./documents/Research_Proposal_Presentation.pdf" target="_blank">Research Proposal Presentation</a></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="project-item">
-                                    <img src="img/3.png" alt="">
-                                    <div class="project-hover">
-                                        <div class="inside">
-                                            <h5><a href="https://github.com/RossKohler/pytut" target="_blank">Project Code</a></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
 
-                        </div> <!-- .GOALS-holder -->
-
-                        <div class="row-projects-holder">
-                          <div class="col-md-4 col-sm-6">
-                              <div class="project-item">
-                                  <img src="img/4.png" alt="">
-                                  <div class="project-hover">
-                                      <div class="inside">
-                                          <h5><a href="./documents/UCT-Ethics.pdf" target="_blank">Science Faculty Ethical Clearance</a></h5>
-
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div class="col-md-4 col-sm-6">
-                              <div class="project-item">
-                                  <img src="img/5.png" alt="">
-                                  <div class="project-hover">
-                                      <div class="inside">
-                                          <h5><a href="./documents/Student_Ethics.pdf" target="_blank">Access to Students Ethical Clearance</a></h5>
-
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div class="col-md-4 col-sm-6">
-                              <div class="project-item">
-                                  <img src="img/needImg.png" alt="">
-                                  <div class="project-hover">
-                                      <div class="inside">
-                                          <h5><a href="#">Project Poster</a></h5>
-
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                        </div>
-                            <hr>
-
-                        <div class="row projects-holder">
-                            <div class="col-md-4 col-sm-6">
-                                <div class ="personal-info">
-                                  <h1 class="indiv-work">Carla Kirk-Cohen</h1>
-                                  <h3 class="indiv-details">krkcar003@myuct.ac.za</h3>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="project-item">
-                                    <img src="img/7.png" alt="">
-                                    <div class="project-hover">
-                                        <div class="inside">
-                                            <h5><a href="./documents/Carla_Literature_Review.pdf" target="_blank">Literature Review</a></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="project-item">
-                                    <img src="img/needImg.png" alt="">
-                                    <div class="project-hover">
-                                        <div class="inside">
-                                            <h5><a href="#">Final Paper</a></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> <!-- .GOALS-holder -->
-
-                        <hr>
-                        <div class="row projects-holder">
-                            <div class="col-md-4 col-sm-6">
-                              <div class ="personal-info">
-                              <h1 class="indiv-work">Ross Kohler</h1>
-                              <h3 class="indiv-details">khlros003@myuct.ac.za</h3>
-                            </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="project-item">
-                                    <img src="img/needImg.png" alt="">
-                                    <div class="project-hover">
-                                        <div class="inside">
-                                            <h5><a href="./documents/Ross_Literature_Review.pdf" target="_blank">Literature Review</a></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="project-item">
-                                    <img src="img/needImg.png" alt="">
-                                    <div class="project-hover">
-                                        <div class="inside">
-                                            <h5><a href="#">Final Paper</a></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> <!-- .GOALS-holder -->
-
-
-                    </div> <!-- DOCUMENTATION -->
+                    </div> <!-- contact -->
                     </div>
+                    <hr>
 
+                    <div class="page-section" id="contact">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">Contact</h4>
 
+                        </div>
+                    </div> <!-- #INDIVIDUAL DOCUMENTATION -->
+                    </div>
 
                     <div class="row" id="footer">
                         <div class="col-md-12 text-center">
-                            <p class="copyright-text">Copyright &copy; Computer Science Honours 2016</p>
+                          <p class="copyright-text">Copyright &copy; Computer Science Honours 2016</p>
                         </div>
                     </div>
 

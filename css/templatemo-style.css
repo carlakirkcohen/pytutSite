@@ -131,6 +131,14 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+.resultImg{
+  max-width: 100%;
+}
+
+.resultsBody{
+  text-align: justify;
+}
+
 button,
 input,
 select,
@@ -253,7 +261,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h4.widget-title {
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'robotobold';
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -299,7 +307,7 @@ hr {
   padding: 30px;
 }
 
-.website-link{
+.k{
   color: white;
   font-size: 18px;
   font-family: 'robotobold';
@@ -331,9 +339,13 @@ h3.profile-title {
 
 h1.indiv-work{
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'robotobold';
   display: inline;
+}
+
+.caption{
+  text-align: center;
 }
 
 h3.indiv-details{
@@ -524,6 +536,17 @@ div.question-holder {
   color: white;
   text-align: right;
 }
+
+b{
+  color: black;
+font-size: 22px;
+}
+
+.website-link{
+  font-size: 22px;
+  padding: 2px;
+}
+
 
 /*------ about us ------ */
 .about-image {
