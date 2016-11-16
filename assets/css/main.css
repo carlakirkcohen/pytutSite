@@ -2938,10 +2938,10 @@
 		}
 
 		#banner .inner {
-			border-top: 2px solid rgba(255, 255, 255, 0.2);
+
 			position: relative;
 			z-index: 10005;
-			padding-top: 8em;
+			padding-top: 4em;
 		}
 
 		#banner h1 {
@@ -3167,30 +3167,54 @@
 		}
 
 		h1.research-question {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'robotobold';
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   color: white;
 }
 
 h3.research-question {
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'robotobold';
-  margin-bottom: 30px;
-  margin-top: 30px;
-  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+	color: white;
 }
 
 div.question-holder {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    background-color: #071112;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    background-color: #0e251f;;
+    margin-bottom: 15px;
+    margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.login-icon {
+    display:inline-block;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+.login-icon[class*='fa-'] {
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.centerWrapper:before {
+    content:'';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resultImg{
+    width: 95%;
+    float: center;
 }
